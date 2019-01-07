@@ -1,0 +1,11 @@
+framework module DoubanLogin {
+  umbrella header "DoubanLogin.h"
+
+  export *
+  module * { export * }
+}
+
+module DoubanLogin.Swift {
+    header "DoubanLogin-Swift.h"
+    requires objc
+}

@@ -1,0 +1,9 @@
+# Xcode
+.DS_Store
+/DoubanLoginModule/.DS_Store
+/DoubanLoginModule/DoubanLoginModule.xcodeproj/project.xcworkspace/xcuserdata/
+*.swp
+/DoubanLoginModule/Podfile.lock
+/DoubanLoginModule/DoubanLoginModule.xcodeproj/
+/DoubanLoginModule/DoubanLoginModule.xcworkspace/
+/DoubanLoginModule/Pods/
