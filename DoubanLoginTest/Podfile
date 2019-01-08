@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+source 'https://github.com/rptang/podspec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DoubanLoginTest' do
+  
+  use_frameworks!
+  
+  pod "CTMediator"
+
+  #pod 'framework_ios_module_lib'
+
+end

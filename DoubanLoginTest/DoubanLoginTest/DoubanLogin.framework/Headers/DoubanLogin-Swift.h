@@ -163,6 +163,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
+@import CTMediator;
 @import UIKit;
 #endif
 
@@ -191,6 +192,11 @@ SWIFT_CLASS("_TtC11DoubanLogin15BViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 /// 辅助init函数
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+
+@interface CTMediator (SWIFT_EXTENSION(DoubanLogin))
+- (UIViewController * _Nullable)LoginModule_showSwiftWithCallback:(void (^ _Nonnull)(NSString * _Nonnull))callback SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #if __has_attribute(external_source_symbol)

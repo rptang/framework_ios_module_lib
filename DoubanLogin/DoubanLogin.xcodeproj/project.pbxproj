@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60CECC5A21E24423000B5AB5 /* DoubanLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CECC5821E24423000B5AB5 /* DoubanLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60CECC6221E24451000B5AB5 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CECC6021E24451000B5AB5 /* BViewController.swift */; };
-		60CECC6421E2448C000B5AB5 /* BViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 60CECC6021E24451000B5AB5 /* BViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CCBBF421E4259A005B8434 /* Target_DoubanLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CCBBF321E4259A005B8434 /* Target_DoubanLogin.swift */; };
+		60CCBBF621E425F4005B8434 /* DoubanLogin_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CCBBF521E425F4005B8434 /* DoubanLogin_Extension.swift */; };
+		60CCBC1621E42F50005B8434 /* DoubanLogin_Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 60CCBBF521E425F4005B8434 /* DoubanLogin_Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CCBC1721E42F7B005B8434 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CECC6021E24451000B5AB5 /* BViewController.swift */; };
 		60CECCAC21E2DFB2000B5AB5 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CECC6121E24451000B5AB5 /* BViewController.xib */; };
 		60CECCB421E2E161000B5AB5 /* guijihuifang.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CECCB321E2E161000B5AB5 /* guijihuifang.png */; };
 		60CECCB621E2E1DE000B5AB5 /* DoubanLoginRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60CECCB521E2E1DE000B5AB5 /* DoubanLoginRes.bundle */; };
+		7CC11A1ED80641A3F3050FB0 /* Pods_DoubanLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA38D6C12E671B0612CBD88 /* Pods_DoubanLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FA38D6C12E671B0612CBD88 /* Pods_DoubanLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoubanLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CCBBF321E4259A005B8434 /* Target_DoubanLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_DoubanLogin.swift; sourceTree = "<group>"; };
+		60CCBBF521E425F4005B8434 /* DoubanLogin_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanLogin_Extension.swift; sourceTree = "<group>"; };
 		60CECC5521E24423000B5AB5 /* DoubanLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoubanLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CECC5821E24423000B5AB5 /* DoubanLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubanLogin.h; sourceTree = "<group>"; };
 		60CECC5921E24423000B5AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,6 +30,8 @@
 		60CECCA021E2DC7E000B5AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60CECCB321E2E161000B5AB5 /* guijihuifang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guijihuifang.png; sourceTree = "<group>"; };
 		60CECCB521E2E1DE000B5AB5 /* DoubanLoginRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DoubanLoginRes.bundle; sourceTree = "<group>"; };
+		704AB590AD8C82F31B877C80 /* Pods-DoubanLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanLogin/Pods-DoubanLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		C14111150088186807F0D5CA /* Pods-DoubanLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanLogin/Pods-DoubanLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC11A1ED80641A3F3050FB0 /* Pods_DoubanLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,12 +53,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022F320D607C17A2566B4FC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				704AB590AD8C82F31B877C80 /* Pods-DoubanLogin.debug.xcconfig */,
+				C14111150088186807F0D5CA /* Pods-DoubanLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		222E7FEBCDF4450BE02E570B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FA38D6C12E671B0612CBD88 /* Pods_DoubanLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60BCCE1221E46BF900129388 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				60CECC6021E24451000B5AB5 /* BViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		60CCBBF021E391AE005B8434 /* Target_API */ = {
+			isa = PBXGroup;
+			children = (
+				60CCBBF221E420C9005B8434 /* API */,
+				60CCBBF121E420BA005B8434 /* Target */,
+			);
+			path = Target_API;
+			sourceTree = "<group>";
+		};
+		60CCBBF121E420BA005B8434 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				60CCBBF321E4259A005B8434 /* Target_DoubanLogin.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		60CCBBF221E420C9005B8434 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				60CCBBF521E425F4005B8434 /* DoubanLogin_Extension.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		60CECC4B21E24423000B5AB5 = {
 			isa = PBXGroup;
 			children = (
 				60CECC5721E24423000B5AB5 /* DoubanLogin */,
 				60CECC9F21E2DC7E000B5AB5 /* DoubanLoginRes */,
 				60CECC5621E24423000B5AB5 /* Products */,
+				022F320D607C17A2566B4FC9 /* Pods */,
+				222E7FEBCDF4450BE02E570B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,7 +137,8 @@
 		60CECC9021E2CFEB000B5AB5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				60CECC6021E24451000B5AB5 /* BViewController.swift */,
+				60BCCE1221E46BF900129388 /* Login */,
+				60CCBBF021E391AE005B8434 /* Target_API */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -107,8 +168,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CECC5A21E24423000B5AB5 /* DoubanLogin.h in Headers */,
-				60CECC6421E2448C000B5AB5 /* BViewController.swift in Headers */,
+				60CCBC1621E42F50005B8434 /* DoubanLogin_Extension.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CECC5D21E24423000B5AB5 /* Build configuration list for PBXNativeTarget "DoubanLogin" */;
 			buildPhases = (
+				52ACA4976F788AEEB9EB9E73 /* [CP] Check Pods Manifest.lock */,
 				60CECC5021E24423000B5AB5 /* Headers */,
 				60CECC5121E24423000B5AB5 /* Sources */,
 				60CECC5221E24423000B5AB5 /* Frameworks */,
@@ -206,12 +267,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52ACA4976F788AEEB9EB9E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoubanLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60CECC5121E24423000B5AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CECC6221E24451000B5AB5 /* BViewController.swift in Sources */,
+				60CCBBF421E4259A005B8434 /* Target_DoubanLogin.swift in Sources */,
+				60CCBBF621E425F4005B8434 /* DoubanLogin_Extension.swift in Sources */,
+				60CCBC1721E42F7B005B8434 /* BViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +433,7 @@
 		};
 		60CECC5E21E24423000B5AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704AB590AD8C82F31B877C80 /* Pods-DoubanLogin.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -377,6 +462,7 @@
 		};
 		60CECC5F21E24423000B5AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14111150088186807F0D5CA /* Pods-DoubanLogin.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

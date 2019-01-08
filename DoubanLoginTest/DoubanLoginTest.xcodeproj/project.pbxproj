@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31CD2DED1566F45BB7ACA2FC /* Pods_DoubanLoginTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21FDD1AF4C24D87D5EAF805 /* Pods_DoubanLoginTest.framework */; };
+		60CCBC1D21E43069005B8434 /* DoubanLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CCBC1C21E43069005B8434 /* DoubanLogin.framework */; };
+		60CCBC1E21E4306D005B8434 /* DoubanLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CCBC1C21E43069005B8434 /* DoubanLogin.framework */; };
+		60CCBC1F21E4306D005B8434 /* DoubanLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60CCBC1C21E43069005B8434 /* DoubanLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		60CECC7221E244E0000B5AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CECC7121E244E0000B5AB5 /* AppDelegate.swift */; };
 		60CECC7421E244E0000B5AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CECC7321E244E0000B5AB5 /* ViewController.swift */; };
 		60CECC7721E244E0000B5AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CECC7521E244E0000B5AB5 /* Main.storyboard */; };
 		60CECC7921E244E1000B5AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CECC7821E244E1000B5AB5 /* Assets.xcassets */; };
 		60CECC7C21E244E1000B5AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CECC7A21E244E1000B5AB5 /* LaunchScreen.storyboard */; };
-		60CECCB821E2E215000B5AB5 /* DoubanLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CECCB721E2E215000B5AB5 /* DoubanLogin.framework */; };
-		60CECCB921E2E219000B5AB5 /* DoubanLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CECCB721E2E215000B5AB5 /* DoubanLogin.framework */; };
-		60CECCBA21E2E219000B5AB5 /* DoubanLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60CECCB721E2E215000B5AB5 /* DoubanLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60CECCBD21E3553C000B5AB5 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CECCBB21E3553C000B5AB5 /* AViewController.swift */; };
+		60CECCBE21E3553C000B5AB5 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60CECCBC21E3553C000B5AB5 /* AViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				60CECCBA21E2E219000B5AB5 /* DoubanLogin.framework in Embed Frameworks */,
+				60CCBC1F21E4306D005B8434 /* DoubanLogin.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		258B3B22635FAC5C6B3E866D /* Pods-DoubanLoginTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanLoginTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanLoginTest/Pods-DoubanLoginTest.debug.xcconfig"; sourceTree = "<group>"; };
+		459880C14271663281929DED /* Pods-DoubanLoginTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoubanLoginTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoubanLoginTest/Pods-DoubanLoginTest.release.xcconfig"; sourceTree = "<group>"; };
+		60CCBC1C21E43069005B8434 /* DoubanLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoubanLogin.framework; sourceTree = "<group>"; };
 		60CECC6E21E244E0000B5AB5 /* DoubanLoginTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanLoginTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CECC7121E244E0000B5AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60CECC7321E244E0000B5AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +45,9 @@
 		60CECC7821E244E1000B5AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60CECC7B21E244E1000B5AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60CECC7D21E244E1000B5AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60CECCB721E2E215000B5AB5 /* DoubanLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoubanLogin.framework; sourceTree = "<group>"; };
+		60CECCBB21E3553C000B5AB5 /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		60CECCBC21E3553C000B5AB5 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		D21FDD1AF4C24D87D5EAF805 /* Pods_DoubanLoginTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoubanLoginTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,19 +55,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CECCB821E2E215000B5AB5 /* DoubanLogin.framework in Frameworks */,
-				60CECCB921E2E219000B5AB5 /* DoubanLogin.framework in Frameworks */,
+				60CCBC1E21E4306D005B8434 /* DoubanLogin.framework in Frameworks */,
+				31CD2DED1566F45BB7ACA2FC /* Pods_DoubanLoginTest.framework in Frameworks */,
+				60CCBC1D21E43069005B8434 /* DoubanLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E36F4199A36D91245DEDD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21FDD1AF4C24D87D5EAF805 /* Pods_DoubanLoginTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		60CECC6521E244E0000B5AB5 = {
 			isa = PBXGroup;
 			children = (
 				60CECC7021E244E0000B5AB5 /* DoubanLoginTest */,
 				60CECC6F21E244E0000B5AB5 /* Products */,
+				8FA419361881E76B869F6740 /* Pods */,
+				2E36F4199A36D91245DEDD69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +99,20 @@
 				60CECC7821E244E1000B5AB5 /* Assets.xcassets */,
 				60CECC7A21E244E1000B5AB5 /* LaunchScreen.storyboard */,
 				60CECC7D21E244E1000B5AB5 /* Info.plist */,
-				60CECCB721E2E215000B5AB5 /* DoubanLogin.framework */,
+				60CECCBB21E3553C000B5AB5 /* AViewController.swift */,
+				60CECCBC21E3553C000B5AB5 /* AViewController.xib */,
+				60CCBC1C21E43069005B8434 /* DoubanLogin.framework */,
 			);
 			path = DoubanLoginTest;
+			sourceTree = "<group>";
+		};
+		8FA419361881E76B869F6740 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258B3B22635FAC5C6B3E866D /* Pods-DoubanLoginTest.debug.xcconfig */,
+				459880C14271663281929DED /* Pods-DoubanLoginTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,10 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CECC8021E244E1000B5AB5 /* Build configuration list for PBXNativeTarget "DoubanLoginTest" */;
 			buildPhases = (
+				A11BDABBB716CF0730A4BD5E /* [CP] Check Pods Manifest.lock */,
 				60CECC6A21E244E0000B5AB5 /* Sources */,
 				60CECC6B21E244E0000B5AB5 /* Frameworks */,
 				60CECC6C21E244E0000B5AB5 /* Resources */,
 				60CECC8721E2455C000B5AB5 /* Embed Frameworks */,
+				4A154A8A0C8156F2FF0A780D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CECCBE21E3553C000B5AB5 /* AViewController.xib in Resources */,
 				60CECC7C21E244E1000B5AB5 /* LaunchScreen.storyboard in Resources */,
 				60CECC7921E244E1000B5AB5 /* Assets.xcassets in Resources */,
 				60CECC7721E244E0000B5AB5 /* Main.storyboard in Resources */,
@@ -152,12 +185,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A154A8A0C8156F2FF0A780D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoubanLoginTest/Pods-DoubanLoginTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoubanLoginTest/Pods-DoubanLoginTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11BDABBB716CF0730A4BD5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoubanLoginTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60CECC6A21E244E0000B5AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				60CECC7421E244E0000B5AB5 /* ViewController.swift in Sources */,
+				60CECCBD21E3553C000B5AB5 /* AViewController.swift in Sources */,
 				60CECC7221E244E0000B5AB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +375,7 @@
 		};
 		60CECC8121E244E1000B5AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258B3B22635FAC5C6B3E866D /* Pods-DoubanLoginTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +398,7 @@
 		};
 		60CECC8221E244E1000B5AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459880C14271663281929DED /* Pods-DoubanLoginTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

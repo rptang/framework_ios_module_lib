@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		UQ5cAiLWEy44IBcCUBT1onb77vg=
+		</data>
 		<key>DoubanLoginRes.bundle/BViewController.nib</key>
 		<data>
-		wA2BG+H5wkI1fxBwG+HAMX6Q9Wg=
+		Eyzoc7qpKHor1Sbysmz24QVZu8w=
 		</data>
 		<key>DoubanLoginRes.bundle/DoubanLoginRes</key>
 		<data>
-		vIgHYvSxvZN5udHoxSXvDWHPvhk=
+		ZpODFFe3bj8DTzOQWEZUlEQNoIE=
 		</data>
 		<key>DoubanLoginRes.bundle/Info.plist</key>
 		<data>
@@ -18,19 +22,19 @@
 		</data>
 		<key>DoubanLoginRes.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		rp/XrDLdi8nopFr2d/njD3tkcO8=
+		/v6BiWRHY9Nv63w6yQxZVIspQ/M=
 		</data>
-		<key>Headers/BViewController.swift</key>
+		<key>DoubanLoginRes.bundle/guijihuifang.png</key>
 		<data>
-		G/MydR1uawTvVcGp8Y+ubpCob2E=
+		1j/EeIjO7OjioG+f6A3oLUn6ogU=
 		</data>
 		<key>Headers/DoubanLogin-Swift.h</key>
 		<data>
-		mMYOKRnT58G9v+QevhJiNuAHLbc=
+		n18JCwHFTN2revBcp1M2/pMWLkk=
 		</data>
-		<key>Headers/DoubanLogin.h</key>
+		<key>Headers/DoubanLogin_Extension.swift</key>
 		<data>
-		Nyn3VWs2hsiOOUUfbw7D+xC1Ka8=
+		9FzPhSk8kSlPaDwPYFvVJFaNo2A=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -42,11 +46,11 @@
 		</data>
 		<key>Modules/DoubanLogin.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		KxSgDfRFVtW3qrgwEwiFxsjeyNU=
+		4zT0fba7sP0KqGdRVxKBFiY5N0Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tpKwdwnsymlW93K0Hs5dgiW6sa4=
+		DM0avZV9hjlpbRgRVgNSqxKslO8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,14 +59,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pb+Vd2Nv2wQ7+LdD3JBeWjnsV657/iZOuI1mhEm5ewo=
+			J7p6NUeGoE0BtiMQGl8diPt5ImnoGrBz1stT77uX66k=
 			</data>
 		</dict>
 		<key>DoubanLoginRes.bundle/DoubanLoginRes</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mMHEIuTmBdSB6AGsPIooqHs9mQwZnKl+VZgGKMcxVVY=
+			9sbj5r28IXLn1dDJqh6kW0D5NyElT8Z6gwKVk06IEgk=
 			</data>
 		</dict>
 		<key>DoubanLoginRes.bundle/Info.plist</key>
@@ -76,28 +80,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xOK9HDBctpxJkMIGwXAwt9qDBz7CKvlnh4rALUlm5/k=
+			hnSFXapyFuutlKsap9k/kJZNzCw5t9QDmCHusN+Z6gQ=
 			</data>
 		</dict>
-		<key>Headers/BViewController.swift</key>
+		<key>DoubanLoginRes.bundle/guijihuifang.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2bd16tvxFiXvV7L1NcTYJqp/PZ6BR+YtnnXgFUWalU4=
+			JXjNty6MYbAEIsBArUtfS3FOTbcF+hdS5WezMdAcI2A=
 			</data>
 		</dict>
 		<key>Headers/DoubanLogin-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			59oV27GvxEvSqbYmHh4LMmwOqxYIE6yYVojX0+2qcjg=
+			Ga/4zPVR1mR5+68pUQ91oi6HV1N7GaH/gPq/1wW+8/g=
 			</data>
 		</dict>
-		<key>Headers/DoubanLogin.h</key>
+		<key>Headers/DoubanLogin_Extension.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F+BY6YhMuwJMzkI0CAimXqbIO9Pcweo6iy15e6OKM34=
+			mfQ+FFR/qm+6inuCQEd5zybrIxl8ZZju/MFIQCxWcZ0=
 			</data>
 		</dict>
 		<key>Modules/DoubanLogin.swiftmodule/x86_64.swiftdoc</key>
@@ -111,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ioyMuHDZV5K+iwSAEv+L0ffLhrV4eTIN01dw/TgEYA8=
+			rgHr35Mt3Hx7hDEbX6OyYokHIy4eU5Wvq5JoQvHO9sw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NbLlBJ7WRS1IjcqeNZL37xRUkP90K9ktuoBCj/j7yyk=
+			xkcwf4oxtKPh/QZ9QjYaBtkkAfPVElTWYzaFuZBug+4=
 			</data>
 		</dict>
 	</dict>

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "framework_ios_module_lib"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.swift_version= '4.2'
   s.summary      = "测试打包成framework组件."
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    测试打包成framework组件.
+                    这是一个framework组件，这是一个framework组件。
                    DESC
 
   s.homepage     = "https://github.com/rptang/framework_ios_module_lib"
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "CTMediator"
 
 end
